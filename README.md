@@ -19,3 +19,5 @@ I achieved 91% accuracy on the validation set after just 4 epochs, which means t
 ## Running this project on your machine
 
 This project has only one notebook, which sets up and handles everything. You only need to have the Kaggle api installed along with PyTorch and Pandas.
+
+The training section of the notebook is broken into 4 cells, for each epoch of the training process. Please be aware that each of these cells can take a while to run, depending on your GPU.
