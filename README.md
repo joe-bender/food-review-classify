@@ -5,7 +5,7 @@ I created a sentiment classifier using [fine food reviews from Amazon](https://w
 ## Features
 - a batching method that uses both sorting and randomness to create batches that never need excessive amounts of padding but also are somewhat random
 - a character-based LSTM model that averages its full sequence of outputs instead of only using the final output, for better prediction
-- character embeding layer in model to learn meaningful representations of each character and deal with capitalization effectively
+- character embedding layer in model to learn meaningful representations of each character and deal with capitalization effectively
 - tokenization and numericalization from scratch
 - dataset and batching functionality from scratch
 - training and validation loops from scratch
